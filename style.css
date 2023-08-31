@@ -12,7 +12,18 @@ body{
     font-size: 16px;
     font-weight: 300;
     line-height: 32px;
-    font-family: var(--main-font)
+    font-family: var(--main-font);
+    overflow-x: hidden;
+
+}
+
+:root{
+    --main-color: #A3A5A7;
+    --heading-color: #1D2043;
+    --primary-color: #DF5646;
+    --light-color: #FAFAFA;
+    --main-font: 'Poppins', sans-serif;
+    --heading-font: 'Playfair Display', serif;
 }
 
 
@@ -50,14 +61,6 @@ a:hover{
     background-image: url(images/brand-icon.png);
     background-repeat: no-repeat;
 }
-:root{
-    --main-color: #A3A5A7;
-    --heading-color: #1D2043;
-    --primary-color: #DF5646;
-    --light-color: #FAFAFA;
-    --main-font: 'Poppins', sans-serif;
-    --heading-font: 'Playfair Display', serif;
-}
 
 
 /* Nav Chat */
@@ -67,6 +70,7 @@ a:hover{
     right: 130px;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .chat span{
@@ -89,8 +93,6 @@ a:hover{
 
 
 /* Nav Menu */
-
-
 .menu-btn{
     position: fixed;
     top: 35px;
@@ -196,14 +198,12 @@ a:hover{
 
 
 /* Nav-contact */
-
 .nav-contact{
     position: relative;
     top: 35px;
     left: 20%;
     width: 50%;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     font-size: 12px;
     font-weight: 400;
@@ -215,7 +215,6 @@ li{
     list-style: none;
 }
 
-
 .num-email li{
     padding-right: 40px;
     margin-right: 40px;
@@ -224,4 +223,122 @@ li{
 
 li, a{
     color: var(--heading-color);
+}
+
+
+
+/* hero about me */
+.hero-heading{
+    position: relative;
+    bottom: 35px;
+    left: 43px;
+}
+
+.hero-image{
+    position: relative;
+    bottom: 49px;
+    left: 43px;
+}
+
+.h1-heading{
+    font-size: 68px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+
+.inverted-text{
+    color: var(--primary-color);
+}
+
+.h3-heading{
+    font-size: 31px;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.normal-text{
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.inverted-text-2{
+    color: var(--heading-color);
+    font-weight: 500;
+}
+
+.shape1-pos{
+    position: absolute;
+    bottom: 84%;
+    right: 66%;
+    max-width: 15%;
+}
+
+.shape2-pos{
+    position: absolute;
+    bottom: 94%;
+    left: 56%;
+    max-width: 10%;
+}
+
+
+/* line box */
+.line-box{
+    display: flex;
+    align-items:center;
+}
+
+.box-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color:#FBF1E7;
+    padding: 0px 15px;
+    margin-left: 20px;
+}
+
+.line{
+    content: " ";
+    width: 38px;
+    height: 1.5px;
+    background-color:#707070;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+
+
+/* about-btn */
+.about-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 14px;
+    padding: 8px 10px 10px 20px;
+    margin-top: 45px;
+
+}
+
+@media (max-width:1200px) {
+    .h1-heading{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 990px) {
+    .nav-header{
+        position: fixed;
+        width:100%;
+        height: 90px;
+        background-color: var(--light-color);
+        box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+        z-index: 5;
+    }
 }

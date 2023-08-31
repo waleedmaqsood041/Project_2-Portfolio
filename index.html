@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="nav-header">
         <div class="container-fluid d-flex">
             <div class="brand">
                 <a href="/" class="brand-name">
@@ -70,19 +70,53 @@
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="nav-contact">
-            <ul class="num-email d-flex">
-                <li>
-                    Call me 
-                    <a href="/">(+012) 345-678</a>
-                </li>
-                <li>
-                    <a href="/">name@gmail.com</a>
-                </li>
-            </ul>
-            <a href="/">Download CV</a>
+    <section class="about-section">
+        <div class="container-fluid">
+            <div class="container d-none d-xl-block d-xxl-block">
+                <div class="nav-contact">
+                    <ul class="num-email d-flex">
+                        <li>
+                            Call me 
+                            <a href="/">(+012) 345-678</a>
+                        </li>
+                        <li>
+                            <a href="/">name@gmail.com</a>
+                        </li>
+                    </ul>
+                    <a href="/">Download CV</a>
+                </div>
+            </div>
+            <div class="container pt-100">
+                <div class="row">
+                    <div class="col-lg-5 pt-100 hero-heading">
+                        <div class="line-box">
+                            <div class="line"></div>
+                            <span class="box-text">About Me</span>
+                        </div>
+                        <div class="heading">
+                            <h1 class="h1-heading">
+                                Hi, 
+                                <br> 
+                                I’m 
+                                <span class="inverted-text">Niharika</span>
+                            </h1>
+                            <h3 class="h3-heading">User Interface Designer</h3>
+                            <span class="normal-text">Hey are you looking for designer to build your <span class="inverted-text-2">Brand and grow your business?</span> let's shake hands with me.</span>
+                        </div>
+                        <button class="about-btn">Hire Me</button>
+                    </div>
+                    <div class="col-lg-7 hero-image">
+                        <div class="about-image pt-100">
+                            <div class="image-group position-relative">
+                                <img src="/images/about.png" alt="about-image" class="img-fluid">
+                                <img src="/images/shape-one.png" alt="shape-one" class="shape1-pos">
+                                <img src="/images/shape-two.png" alt="shape-two" class="shape2-pos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
