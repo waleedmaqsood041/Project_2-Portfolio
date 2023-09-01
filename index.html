@@ -21,27 +21,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="nav-header">
-        <div class="container-fluid d-flex">
-            <div class="brand">
-                <a href="/" class="brand-name">
-                    <b>it's</b>
-                    Me
-                </a>
-                <div class="brand-icon"></div>
-            </div>
-            <div class="container d-none d-xl-block d-xxl-block">
+    <header>
+        <div class="nav-header">
 
-                <div class="nav-contact ">
-                    <ul class="num-email d-flex">
-                        <li>
-                            Call me 
-                            <a href="/">(+012) 345-678</a>
-                        </li>
-                        <li>
-                            <a href="/">name@gmail.com</a>
-                        </li>
-                    </ul>
+            <div class="container-fluid d-flex">
+                <div class="brand">
+                    <a href="/" class="brand-name">
+                        <b>it's</b>
+                        Me
+                    </a>
+                    <div class="brand-icon"></div>
+                </div>
+                <div class="container d-none d-xl-block d-xxl-block">
+                    
+                    <div class="nav-contact ">
+                        <ul class="num-email d-flex">
+                            <li>
+                                Call me 
+                                <a href="/">(+012) 345-678</a>
+                            </li>
+                            <li>
+                                <a href="/">name@gmail.com</a>
+                            </li>
+                        </ul>
                     <a href="/">Download CV</a>
                 </div>
             </div>
@@ -49,7 +51,7 @@
                 <span>Let's Chat</span>
                 <button class="chat-button"><i class="fa-brands fa-rocketchat rocket-icon"></i></button>
             </div>
-
+            
             <button class="btn menu-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <span class="menu-icon">
                     <span class="top-line"></span>
@@ -58,6 +60,7 @@
                 </span>
             </button>
         </div>
+    </div>
     </header>
     <div class="offcanvas offcanvas-end offcanvas-menu" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <button type="button" class="btn-close text-reset close-btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -85,12 +88,12 @@
             </div>
         </div>
     </div>
-    <section class="about-section">
+    <section class="about-section pt-100 pb-100">
         <div class="container-fluid">
             <div class="container pt-100">
                 <div class="row">
                     <div class="col-lg-5 pt-100 hero-heading">
-                        <div class="line-box">
+                        <div class="about-line-box">
                             <div class="line"></div>
                             <span class="box-text">About Me</span>
                         </div>
@@ -120,15 +123,15 @@
         </div>
     </section>
     <section class="service-section">
-        <div class="container-fluid">
+        <div class="container-fluid pb-100">
             <div class="container pt-100">
-                <div class="row align-items-center">
-                    <div class="line-box">
+                <div class="row">
+                    <div class="service-line-box">
                         <div class="line"></div>
                         <span class="box-text">Services</span>
                     </div>
-                    <div class="col-lg-7 ">
-                        <div class="hero-image">
+                    <div class="col-lg-7">
+                        <div class="h-service-img">
                             <div class="service-image pt-100">
                                 <div class="image-group position-relative">
                                     <img src="/images/services.png" alt="service-image" class="img-fluid">
@@ -138,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 service-heading">
                         <div class="hero-heading pt-100">
                             <h2 class="h2-heading">What <span class="inverted-text">Services</span> I Provde To My Clients In Here.</h2>
                             <p class="p-text">I always want to be able to meet the goals of my clients, I value my services as a designer through my work. You may like my <span class="inverted-text-2">services.</span> </p>
@@ -147,25 +150,92 @@
                             <div class="service-item">
                                 <div class="service-img">
                                     <img src="images/service-icon1.png" alt="icon" class="icon">
-                                    <p>App Design</p>
                                 </div>
+                                <p class="service-text pt-3">App Design</p>
                             </div>
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="images/service-icon1.png" alt="icon" class="icon">
-                                    <p>App Design</p>
+                                    <img src="images/service-icon2.png" alt="icon" class="icon">
                                 </div>
+                                <p class="service-text pt-3">Web Design</p>
                             </div>
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="images/service-icon1.png" alt="icon" class="icon">
-                                    <p>App Design</p>
+                                    <img src="images/service-icon3.png" alt="icon" class="icon">
                                 </div>
+                                <p class="service-text pt-3">Illustration</p>
                             </div>
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="images/service-icon1.png" alt="icon" class="icon">
-                                    <p>App Design</p>
+                                    <img src="images/service-icon4.png" alt="icon" class="icon">
+                                </div>
+                                <p class="service-text pt-3">Branding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skill-section">
+        <div class="container-fluid pb-100">
+            <div class="container pt-100">
+                <div class="row">
+                    <div class="skill-line-box">
+                        <div class="line"></div>
+                        <span class="box-text">Skills</span>
+                    </div>
+                    <div class="col-lg-5 service-heading">
+                        <div class="hero-heading pt-100">
+                            <h2 class="h2-heading pb-3">As A Designer I Am Good At Fit With Few <span class="inverted-text">Skills.</span></h2>
+                            <p class="skill-text">All designer have good skills to make sure satisfied their clients, As a designer I am also specialised few <span class="inverted-text-2">skills.</span> </p>
+                        </div>
+                        <div class="progress-bar-group">
+                            <div class="bar-item">
+                                <div class="row">
+                                    <div class="col bar-item-title">App Design</div>
+                                    <div class="col-auto percentage">78%</div>
+                                </div>
+                                <div class="progress progressbar">
+                                    <div class="progress-bar" style="width:78%;"></div>
+                                </div>
+                            </div>
+                            <div class="bar-item">
+                                <div class="row">
+                                    <div class="col bar-item-title">Web Design</div>
+                                    <div class="col-auto percentage">95%</div>
+                                </div>
+                                <div class="progress progressbar">
+                                    <div class="progress-bar" style="width:95%;"></div>
+                                </div>
+                            </div>
+                            <div class="bar-item">
+                                <div class="row">
+                                    <div class="col bar-item-title">Art & Illustration</div>
+                                    <div class="col-auto percentage">65%</div>
+                                </div>
+                                <div class="progress progressbar">
+                                    <div class="progress-bar" style="width:65%;"></div>
+                                </div>
+                            </div>
+                            <div class="bar-item">
+                                <div class="row">
+                                    <div class="col bar-item-title">Branding</div>
+                                    <div class="col-auto percentage">85%</div>
+                                </div>
+                                <div class="progress progressbar">
+                                    <div class="progress-bar" style="width:85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="h-skills-img">
+                            <div class="service-image pt-100">
+                                <div class="image-group position-relative">
+                                    <img src="/images/skills.png" alt="skills-image" class="img-fluid">
+                                    <img src="/images/skill-shape-one.png" alt="skill-shape-one" class="shape1-pos">
+                                    <img src="/images/shape-two.png" alt="shape-two" class="shape2-pos">
                                 </div>
                             </div>
                         </div>
