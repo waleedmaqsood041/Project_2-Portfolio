@@ -374,6 +374,8 @@ li, a{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 45px;
+    position: relative;
+    bottom: 25px;
 }
 .service-item{
     width: 45%;
@@ -426,18 +428,32 @@ img{
 } */
 
 /*Skills-Section  */
+
+.skill-heading{
+    position: relative;
+    top: 100px;
+    left: 15px
+}
+
 .skill-line-box{
     display: flex;
     align-items:center;
     position: relative;
-    top: 85px;
-    right: 40px;
+    top: 140px;
+    right: 33px;
+}
+
+.progress-bar-group{
+    position: relative;
+    top: 120px;
+    right: 30px;
 }
 
 .progressbar{
     height: 8px!important;
     margin-left: 40px;
 }
+
 
 .progress-bar{
     background-color: #75a9d6;
@@ -464,7 +480,9 @@ img{
 
 .h-skills-img{
     position: relative;
-    bottom: 40px;
+    top: 0px;
+    left: 40px;
+    padding-top:140px
 }
 
 @media (max-width:1200px) {
