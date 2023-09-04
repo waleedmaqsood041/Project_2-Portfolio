@@ -485,6 +485,164 @@ img{
     padding-top:140px
 }
 
+/* information section */
+.information{
+    background-color: var(--base-color);
+}
+
+.info-line-box1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 58px;
+    bottom: 24px;
+}
+
+.info-line-box2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 58px;
+    bottom: 24px;
+}
+
+.year{
+    color: var(--heading-color);
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.edu-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 21rem;
+}
+
+.behance-text{
+    width: 23rem;
+}
+
+.dribble-text{
+    width: 23rem;
+}
+
+
+.education{
+    max-width: 485px;
+}
+
+.info-heading{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+
+
+.content{
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.h4-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--heading-color);
+}
+
+.h6-heading{
+    color: #78ADD9;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.be-inverted-text{
+    font-weight: 400;
+    color: #0055FF;
+}
+
+.db-inverted-text{
+    font-weight: 400;
+    color: #D534A5;
+}
+
+.inverted-text-3{
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+
+.db-year{
+    color: var(--heading-color);
+    font-size: 16px;
+    padding-right: 16px;
+}
+
+
+
+
+/* Portfolio section */
+
+/* .stats{
+    position: relative;
+    top: 26px;
+    left: 128px;
+} */
+
+.stats span{
+    padding-right: 20px;
+    padding-left: 20px;
+    color: var(--primary-color);
+}
+
+.exp-stat{
+    margin-top: 50px;
+    /* max-width: 200px; */
+    margin-right: 50px;
+}
+
+
+
+.clients-stat{
+    margin-top: 50px;
+    /* max-width: 200px; */
+    margin-right: 50px;
+}
+
+.stats-content{
+    line-height: 1;
+    font-size: 48px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.link-text{
+    font-weight: 500;
+}
+
+
+.project-image1{
+    padding: 30px;
+    width: 38.43rem;
+}
+
+.project-image2{
+    padding: 30px;
+    width: 38.43rem;
+}
+
+.portfolio-img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgb(155 155 155 / 16%);
+}
+
+.heading-stats{
+    position: relative;
+    left: 25px;
+}
+
+
 @media (max-width:1200px) {
     .h1-heading{
         font-size: 55px;
@@ -506,4 +664,10 @@ img{
     .service-item{
         width: 100%;
     }    
+}
+
+@media (max-width: 775px) {
+    .project-image1{
+        display: none;
+    }
 }
