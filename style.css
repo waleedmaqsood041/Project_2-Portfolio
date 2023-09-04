@@ -643,6 +643,42 @@ img{
 }
 
 
+/* testimonial section */
+
+.testimonial-section{
+    background-color: var(--base-color) ;
+}
+
+.h5-heading{
+    font-size: 18px;
+    color: var(--heading-color);
+}
+
+
+.testimonial-image{
+    position: relative;
+}
+
+.testimonial-image .t-img1{
+    position: absolute;
+    top: 17%;
+    left: 6%;
+    max-width: 30%;
+}
+
+.testimonial-image .t-img2{
+    position: absolute;
+    bottom: 71%;
+    left: 74%;
+    max-width: 30%;
+}
+
+.testimonial-heading{
+    max-width: 78%;
+    margin-left: 55px;
+}
+
+
 @media (max-width:1200px) {
     .h1-heading{
         font-size: 55px;
